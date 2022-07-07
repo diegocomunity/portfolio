@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="Icon theme" class="toggle-theme_icon">
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="./assets/icons/icon01.svg" alt="Flag icon español">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="./assets/icons/icon02.png" alt="Flag icon español">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(15, 84%, 56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card-profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="Profile" srcset="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Diego Gutierrez</h2>
+            <p class="card__subtitle no-margin data-section="profile" data-value="rol">Desarrollador Full Stack</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:diegoalejandrogutierrezs@gmail.com">diegoalejandrogutierrezs@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3133142482">+57 3133142482</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Hola me llamo Diego y soy un desarrollador Full Stack, soy entusiasta de la tecnología y de los datos
+            </p>
+          </div>
+        </article>
+        <article class="card card-experience">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="experience">
+            <img src="./assets/images/logo.png" alt="Logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time"
+                data-section="experience"
+                data-value="first-job-dates"
+              >
+                Feb 2017 - Current
+              </p>
+              <h3 class="experience__job"
+                data-section="experience"
+                data-value="first-job-title"
+              >Front End Developer</h3>
+              <p class="experience__description"
+                data-section="experience"
+                data-value="first-job-description"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi voluptates eaque dicta enim eius, quod eveniet quos illum a harum reprehenderit rerum sequi animi cum nisi esse. Praesentium, non accusantium.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="./assets/images/hobbie.jpg" alt="Man on a bike">
+            <h3 class="hobbie__title" 
+              data-section="hobbies"
+              data-value="fist-hobbie-title"
+            >
+              Biking
+            </h3>
+            <p class="card__text"
+              data-section="hobbies"
+              data-value="first-hobbie-description"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus amet in, tempore quos rem quis veniam odit recusandae mollitia nisi facere provident illo explicabo incidunt eum sapiente necessitatibus nam.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="column column-right">
+        <article class="card">
+          <h2 class="card__title">
+            Front End
+          </h2>
+          <small>Años de experiencia</small>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">4</span>
+
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <p class="skills__bar skills__bar--70"></p>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <p class="skills__bar skills__bar--80"></p>
+              </div>
+              <div class="skills">
+                <div class="skills__item">
+                  <p class="skills__tech">JS</p>
+                  <p class="skills__bar skills__bar--90"></p>
+                </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">
+            Back End
+          </h2>
+          <small>Años de experiencia</small>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">4</span>
+
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">GO</p>
+              <p class="skills__bar skills__bar--40"></p>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Python</p>
+                <p class="skills__bar skills__bar--80"></p>
+              </div>
+              <div class="skills">
+                <div class="skills__item">
+                  <p class="skills__tech">Php</p>
+                  <p class="skills__bar skills__bar--20"></p>
+                </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/project.jpg" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScsript</span>
+              <span class="project__tag">#Response</span>
+            </div>
+            <h2 class="card__title"
+              data-section="first-project"
+              data-value="first-project-title"
+            >Landing Page</h2>
+            <p class="card__text" data-section="first-project"
+              data-value="first-project-description"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsum consequuntur hic fugit dolorum quae, vel eveniet corrupti labore nostrum culpa aperiam nulla minima molestiae modi aliquid incidunt soluta accusantium?
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

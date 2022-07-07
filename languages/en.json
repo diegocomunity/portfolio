@@ -1,0 +1,15 @@
+{
+    "profile": {
+        "rol": "Desarrollador Full Stack",
+        "description": "Hola me llamo Diego y soy un desarrollador Full Stack, soy entusiasta de la tecnología y de los datos"
+    },
+    "experience": {
+        "first-job-title": "Desarrollado Backend",
+        "first-job-dates": "Feb 2017 - Current",
+        "first-job-description": "lorem ipsum lorem ipsum lorem ipsum"
+    },
+    "projects": {
+        "first-project-title": "Landing Page",
+        "first-project-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsum consequuntur hic fugit dolorum quae, vel eveniet corrupti labore nostrum culpa aperiam nulla minima molestiae modi aliquid incidunt soluta accusantium? "
+    }
+}
